@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../img/registro.jpg );
+  
+}
+
+.form-register {
+  width: 400px;
+  background:transparent;
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 4px;
+  font-family: 'calibri';
+  box-shadow: 7px 13px 37px #FF7043;
+}
+
+.form-register h4 {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.controls {
+  width: 100%;
+  background:transparent;
+  
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  font-family: 'calibri';
+  font-size: 18px;
+  color:#000000;
+}
+
+.form-register p {
+  height: 40px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 40px;
+}
+
+.form-register a {
+  color:#000099;
+  text-decoration: none;
+}
+
+
+
+.form-register .btn-neon{
+  position: relative;
+  display: inline-block;
+  padding: 15px 30px;
+  color: #fff;
+  letter-spacing: 4px;
+  text-decoration: none;
+  font-size: 24px;
+  overflow: hidden;
+  transition: 0.2s;
+  }
+.form-register .btn-neon:hover{
+   background: #a945c7;
+   box-shadow: 0 0 10px #a945c7, 0 0 40px #a945c7, 0 0 80px #a945c7;
+   transition-delay: 1s;
+   }
+   .form-register .btn-neon span{
+   position: absolute;
+   display: block;
+          }
+   #span1{
+   top: 0;
+   left: -100%;
+   width: 100%;
+   height: 2px;
+   background: linear-gradient(90deg, transparent,#a945c7);
+   }
+   .form-register .btn-neon:hover #span1{
+   left: 100%;
+   transition: 1s;
+   }
+   #span3{
+   bottom: 0;
+   right: -100%;
+   width: 100%;
+   height: 2px;
+   background: linear-gradient(270deg, transparent,#a945c7);
+   }
+   .form-register .btn-neon:hover #span3{
+    right: 100%;
+    transition: 1s;
+    transition-delay: 0.5s;
+    }
+    #span2{
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent,#a945c7);
+    }
+    .form-register .btn-neon:hover #span2{
+    top: 100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+    }
+    #span4{
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent,#a945c7);
+    }
+    .form-register .btn-neon:hover #span4{
+    bottom: 100%;
+    transition: 1s;
+    transition-delay: 0.75s;
+    }
+
+  .form-register .btn-neon{
+      margin: -5px -90px; 
+      position:relative;
+      top:50%; 
+      left:50%;
+  }

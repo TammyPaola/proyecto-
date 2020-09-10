@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;  
+}
+
+body {
+    background-image: url(../img/tenedor.jpg);
+    
+    
+    
+  }
+header{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background: rgb(250, 248, 248);
+    z-index: 100;
+   
+}
+h1{
+    color:black;
+    margin-left:25px;
+    margin-top: 20px;
+    font-family: monospace;
+    font-size: 20px;
+}
+p{
+    color:black;
+    margin-left:25px;
+    margin-top: 20px;
+    font-family: monospace;
+    font-size: 20px;
+}
+body{
+    background-color: rgb(33, 202, 137);
+
+}
+
+
+#contenido{
+    background:  #00FFCF;
+    display: flex;
+    width: 95%;
+    height: 400px;
+    margin-top: 25px;
+    margin-left: 35px;
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px black;
+ 
+
+}
+
+ .titulo{
+    font: oblique bold 200% cursive;
+}
+
+.target{
+    width: 200px;
+    height: 450px;
+    background-color: #00CC99;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px black;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+a{
+    text-decoration:none;
+}
+
+.target:hover{
+    margin:10px;
+    width: 250px;
+    height: 310px;
+    background-color: rgb(39, 189, 194);
+}
+/*boton*/
+.btn-neon{
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: #fff;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 24px;
+    overflow: hidden;
+    margin-left: 600px;
+    margin-top: 100px;
+    transition: 0.2s;
+    z-index: 100;
+    }
+    .btn-neon:hover{
+     background: #0693f1;
+     box-shadow: 0 0 10px #4593c7, 0 0 40px #4593c7, 0 0 80px #458cc7;
+     transition-delay: 1s;
+     }
+    .btn-neon span{
+     position: absolute;
+     display: block;
+            }
+     #span1{
+     top: 0;
+     left: -100%;
+     width: 100%;
+     height: 2px;
+     background: linear-gradient(90deg, transparent,#458cc7);
+     }
+     .btn-neon:hover #span1{
+     left: 100%;
+     transition: 1s;
+     }
+     #span3{
+     bottom: 0;
+     right: -100%;
+     width: 100%;
+     height: 2px;
+     background: linear-gradient(270deg, transparent,#4588c7);
+     }
+     .btn-neon:hover #span3{
+      right: 100%;
+      transition: 1s;
+      transition-delay: 0.5s;
+      }
+      #span2{
+      top: -100%;
+      right: 0;
+      width: 2px;
+      height: 100%;
+      background: linear-gradient(180deg, transparent,#458cc7);
+      }
+      .btn-neon:hover #span2{
+      top: 100%;
+      transition: 1s;
+      transition-delay: 0.25s;
+      }
+      #span4{
+      bottom: -100%;
+      left: 0;
+      width: 2px;
+      height: 100%;
+      background: linear-gradient(360deg, transparent,#4593c7);
+      }
+      .btn-neon:hover #span4{
+      bottom: 100%;
+      transition: 1s;
+      transition-delay: 0.75s;
+      }
+
+      #pantalla{
+          margin: 20px;
+          background-color:  #00CC99;
+          border-radius: 10px;
+          box-shadow: 10px 5px 5px black;
+          width: 1000px;
+          margin-left: 300px;
+        
+      }
+
+      #pantalla::-webkit-scrollbar{
+          background-color: none;
+      }
+      #pantalla::-webkit-scrollbar-thumb{
+          background-color: black;
+          width: 10px;
+      }
+
+      h2{
+          text-align: center;
+      }
+
+    #pantalla p{
+        margin:20px;
+    }

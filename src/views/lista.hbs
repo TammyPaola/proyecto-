@@ -1,0 +1,21 @@
+<form action="/Lista"></form>
+<div>
+    <!-- Arreglo each es para llamar a tu constante del controlador de la parte de lista -->
+   {{#each clientes}}
+   <div>
+       <h2>Altura (cm)</h2><h2 id="altura">{{altura}}</h2>
+       <h2>Edad</h2><h2 id="edad">{{edad}}</h2> 
+       <h2>Sexo</h2><h2 id="sexo">{{sexo}}</h2>
+       <h2>Peso</h2><h2 id="peso">{{peso}}</h2>
+   </div>
+   {{else}}
+        <div class="col-md-4 mx-auto">
+            <div class="card card-body text-center">
+                <p>No a registrado sus Datos.</p>
+                <a href="/Registro">¡Introducir uno!</a>
+            </div>
+        </div>
+        {{/each}}
+</div>
+
+
